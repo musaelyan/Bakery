@@ -3,22 +3,25 @@
 =====================*/
 
 @font-face {
-  font-family: "Bebas Neue Bold";
-  src: local("Bebas Neue Bold"),
-       url("../fonts/bebasneuebold.ttf") format("truetype"),
-       url("../fonts/bebasneuebold.woff") format("woff"),
-       url("../fonts/ptsansbold.woff2") format("woff2");
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"),
+       url("../fonts/proximanova-regular-webfont.ttf") format("truetype"),
+       url("../fonts/proximanova-regular-webfont.woff") format("woff"),
+       url("../fonts/proximanova-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
-$base-font: "Bebas Neue Bold", Arial, sans-serif;
+
+$alegreya-google: "Alegreya", "Times New Roman", serif;
+$playfair-google: "Playfair Display", "Times New Roman", serif;
+$proxima-embedded: "Proxima Nova", Arial, sans-serif;
 
 body {
-  font-family: $base-font;
+  font-family: $proxima-embedded;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 24px;
   font-weight: normal;
-  color: #595959;
+  color: $grey;
   text-transform: none;
 }

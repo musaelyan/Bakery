@@ -6,11 +6,6 @@
 
 @import "base/buttons.scss";
 @import "base/forms.scss";
-@import "base/grid.scss";
-@import "base/popup.scss";
-
-// подключение анимации
-@import "animate.min.scss";
 
 
 // подключение всех стилей
@@ -26,37 +21,20 @@ body {
   background: white;
   margin: 0px;
   padding: 0px;
-  min-width: 320px;
-  @media ($tablet-width) {
-    min-width: 768px;
-  }
-  @media ($desktop-width) {
-    min-width: 1200px;
-  }
+  min-width: 1300px;
 }
 
 .container {
-  width: 320px;
+  width: 1260px;
+  padding: 0 20px;
   margin: 0 auto;
-
-  @media ($tablet-width) {
-    width: 100%;
-  }
-
-  @media ($desktop-width) {
-    width: 1200px;
-  }
 }
 
-.wrapper {
-  width: 320px;
-  margin: 0 auto;
+h1,h2,h3,h4,h5,h6,
+p {
+  margin: 0;
+}
 
-  @media ($tablet-width) {
-    width: 100%;
-  }
-
-  @media ($desktop-width) {
-    width: 1200px;
-  }
+ul {
+  padding: 0;
 }
