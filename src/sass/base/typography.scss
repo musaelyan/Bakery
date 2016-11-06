@@ -15,10 +15,10 @@
 
 $alegreya-google: "Alegreya", "Times New Roman", serif;
 $playfair-google: "Playfair Display", "Times New Roman", serif;
-$proxima-embedded: "Proxima Nova", Arial, sans-serif;
+$base-font: "Proxima Nova", Arial, sans-serif;
 
 body {
-  font-family: $proxima-embedded;
+  font-family: $base-font;
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
